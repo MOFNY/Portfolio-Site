@@ -1,0 +1,211 @@
+@import "bourbon";
+
+$primaryShadowing: -40px 10px 70px 10px rgba(0,0,0,0.5) inset;
+$margins: 10px 10px;
+$initialBorderRadius: 50%;
+$initialTranslateY: 230px;
+$initialScaleX: 1;
+$initialScaleY: 1;
+@mixin initialValues() {
+	margin: $margins;
+	border-radius: $initialBorderRadius; 
+	box-shadow: $primaryShadowing;
+}
+
+@include keyframes(circle-anim) {
+0% {
+@include transform(scale($initialScaleX, $initialScaleY));
+@include initialValues();
+}
+10%
+{
+@include transform(scale($initialScaleX, $initialScaleY) translateX(320px) rotate(80deg));
+@include initialValues();
+}
+20%
+{
+@include transform(translateX(420px) translateY($initialTranslateY) scaleY(0.75) scaleX(1.15) rotate(180deg));
+@include initialValues();
+}
+30%
+{
+@include transform(translateX(500px) translateY(10px) scaleY(1) scaleX(1) rotate(230deg));
+@include initialValues();
+}
+40%
+{
+@include transform(translateX(560px) translateY($initialTranslateY) scaleY(0.8) scaleX(1.10) rotate(240deg));
+@include initialValues();
+}
+45%
+{
+@include transform(translateX(600px) translateY(50px) scaleY(1) scaleX(1) rotate(250deg));
+@include initialValues();
+
+}
+50%
+{
+@include transform(translateX(610px) translateY($initialTranslateY) scaleY(0.9) scaleX(1.05) rotate(260deg));
+@include initialValues();
+
+}
+55%
+{
+@include transform(translateX(620px) translateY(180px) scaleY(1) scaleX(1) rotate(340deg));
+@include initialValues();
+}
+60%
+{
+@include transform(translateX(630px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(360deg));
+@include initialValues();
+}
+65%
+{
+@include transform(translateX(640px) translateY(200px) scaleY(1) scaleX(1) rotate(370deg));
+@include initialValues();
+}
+66%
+{
+@include transform(translateX(645px) translateY(210px) scaleY(1) scaleX(1) rotate(380deg));
+@include initialValues();
+}
+67%
+{
+@include transform(translateX(650px) translateY(220px) scaleY(1) scaleX(1) rotate(390deg));
+@include initialValues();
+}
+68%
+{
+@include transform(translateX(660px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(410deg));
+@include initialValues();
+}
+69%
+{
+@include transform(translateX(670px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(420deg));
+@include initialValues();
+}
+70%
+{
+@include transform(translateX(680px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(430deg));
+@include initialValues();
+}
+71%
+{
+@include transform(translateX(690px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(440deg));
+@include initialValues();
+}
+72%
+{
+@include transform(translateX(700px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(450deg));
+@include initialValues();
+}
+73%
+{
+@include transform(translateX(710px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(460deg));
+@include initialValues();
+}
+74%
+{
+@include transform(translateX(720px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(470deg));
+@include initialValues();
+}
+75%
+{
+@include transform(translateX(730px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(480deg));
+@include initialValues();
+background: #DE1B1B;
+
+}
+76%
+{
+@include transform(translateX(740px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(490deg));
+@include initialValues();
+background: #DE1B1B;
+
+}
+77%
+{
+@include transform(translateX(750px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(500deg));
+@include initialValues();
+background: #DE1B1B;
+}
+78%
+{
+@include transform(translateX(760px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(510deg));
+@include initialValues();
+background: #DE1B1B;
+}
+79%
+{
+@include transform(translateX(770px) translateY($initialTranslateY) scaleY(1) scaleX(1.02) rotate(520deg));
+@include initialValues();
+background: rgba(63,107,169, 0.2);
+}
+80%
+{
+@include transform(translateX(765px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(515deg));
+@include initialValues();
+
+}
+81%
+{
+@include transform(translateX(760px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(510deg));
+@include initialValues();
+}
+82%
+{
+@include transform(translateX(755px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(505deg));
+@include initialValues();
+}
+83%
+{
+@include transform(translateX(750px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(500deg));
+@include initialValues();
+}
+84%
+{
+@include transform(translateX(745px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(495deg));
+@include initialValues();
+}
+85%
+{
+@include transform(translateX(740px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(490deg));
+@include initialValues();
+}
+86%
+{
+@include transform(translateX(735px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(485deg));
+@include initialValues();
+}
+87%
+{
+@include transform(translateX(730px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(480deg));
+@include initialValues();
+}
+88%
+{
+@include transform(translateX(725px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(475deg));
+@include initialValues();
+}
+89%
+{
+@include transform(translateX(720px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(470deg));
+@include initialValues();
+}
+90%
+{
+@include transform(translateX(720px) translateY($initialTranslateY) scaleY(1) scaleX(1) rotate(470deg));
+@include initialValues();  
+background-color: white;
+border: none
+}
+
+100%
+{
+@include transform(scale(1) translate(500px, 50%));
+border-radius: 5%;
+box-shadow: none;
+background-color: white;
+border: none
+}
+}
